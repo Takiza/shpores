@@ -1,0 +1,81 @@
+<style>
+
+	@media (min-width: 600px) {
+		
+		.container-1 {
+		display: flex;
+		align-items: flex-start;
+		flex-direction: row;
+		/*flex-direction: column/row;
+		flex-direction: column-reverse;*/;
+		}
+	}
+
+	.container-2 {
+		display: flex;
+		justify-content: space-around;
+		flex-wrap: wrap;
+	}
+	
+
+	.container-1 div, .container-2 div {
+		padding: 10px;
+		border: 1px solid silver;
+	}
+
+	.box-1 {
+		flex: 2;
+		order: 2;
+	}
+
+	.box-2 {
+		flex: 2;
+		order: 1;
+	}
+
+	.box-3 {
+		flex: 1;
+	}
+
+	.box {
+		flex-basis: 20%;
+	}
+</style>
+
+<div class="container-1">
+	<div class="box-1">
+		<h3>Box 1</h3>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio quam, accusantium corrupti soluta voluptatum. Hic repellendus, aspernatur aliquam dicta. Impedit rem suscipit ducimus sit dolores culpa labore illum sequi unde.</p>
+	</div>
+	<div class="box-2">
+		<h3>Box 2</h3>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio quam, accusantium corrupti soluta voluptatum. Hic repellendus, aspernatur aliquam dicta. Impedit rem suscipit ducimus sit dolores culpa labore illum sequi unde.</p>
+	</div>
+	<div class="box-3">
+		<h3>Box 3</h3>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio quam, accusantium corrupti soluta voluptatum. Hic repellendus, aspernatur aliquam dicta. Impedit rem suscipit ducimus sit dolores culpa labore illum sequi unde. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio quam, accusantium corrupti soluta voluptatum. Hic repellendus, aspernatur aliquam dicta. Impedit rem suscipit ducimus sit dolores culpa labore illum sequi unde.</p>
+	</div>
+</div>
+
+<div class="container-2">
+	<div class="box">
+		<h3>Box 1</h3>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio quam, accusantium corrupti soluta voluptatum. Hic repellendus, aspernatur aliquam dicta. Impedit rem suscipit ducimus sit dolores culpa labore illum sequi unde.</p>
+	</div>
+	<div class="box">
+		<h3>Box 2</h3>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio quam, accusantium corrupti soluta voluptatum. Hic repellendus, aspernatur aliquam dicta. Impedit rem suscipit ducimus sit dolores culpa labore illum sequi unde.</p>
+	</div>
+	<div class="box">
+		<h3>Box 3</h3>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio quam, accusantium corrupti soluta voluptatum. Hic repellendus, aspernatur aliquam dicta. Impedit rem suscipit ducimus sit dolores culpa labore illum sequi unde. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio quam, accusantium corrupti soluta voluptatum. Hic repellendus, aspernatur aliquam dicta. Impedit rem suscipit ducimus sit dolores culpa labore illum sequi unde.</p>
+	</div>
+	<div class="box">
+		<h3>Box 4</h3>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio quam, accusantium corrupti soluta voluptatum. Hic repellendus, aspernatur aliquam dicta. Impedit rem suscipit ducimus sit dolores culpa labore illum sequi unde. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio quam, accusantium corrupti soluta voluptatum. Hic repellendus, aspernatur aliquam dicta. Impedit rem suscipit ducimus sit dolores culpa labore illum sequi unde.</p>
+	</div>
+	<div class="box">
+		<h3>Box 5</h3>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio quam, accusantium corrupti soluta voluptatum. Hic repellendus, aspernatur aliquam dicta. Impedit rem suscipit ducimus sit dolores culpa labore illum sequi unde. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio quam, accusantium corrupti soluta voluptatum. Hic repellendus, aspernatur aliquam dicta. Impedit rem suscipit ducimus sit dolores culpa labore illum sequi unde.</p>
+	</div>
+</div>
